@@ -1,0 +1,512 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Browser launched and navigated to OrangeHRM site]]>
+    </line>
+    <line>
+      <![CDATA[Screen recording started]]>
+    </line>
+    <line>
+      <![CDATA[--------------------------------------------------]]>
+    </line>
+    <line>
+      <![CDATA[TEST NAME     : Full Integrated Workflow - OrangeHRM]]>
+    </line>
+    <line>
+      <![CDATA[APPLICATION   : OrangeHRM Open Source (https://opensource-demo.orangehrmlive.com/)]]>
+    </line>
+    <line>
+      <![CDATA[TEST TYPE     : Functional | End-to-End | Positive Flow]]>
+    </line>
+    <line>
+      <![CDATA[TEST OBJECTIVE: Validate employee lifecycle (Add → Details → Resume → System User → Leave → Punch → Claim → Buzz)]]>
+    </line>
+    <line>
+      <![CDATA[DATA SOURCE   : Excel - target/EmployeeData.xlsx]]>
+    </line>
+    <line>
+      <![CDATA[--------------------------------------------------]]>
+    </line>
+    <line>
+      <![CDATA[===== Starting Full Flow Test for user: Admin =====]]>
+    </line>
+    <line>
+      <![CDATA[Entered Admin username and password]]>
+    </line>
+    <line>
+      <![CDATA[Admin login submitted]]>
+    </line>
+    <line>
+      <![CDATA[Navigated to PIM section]]>
+    </line>
+    <line>
+      <![CDATA[Accessed Add Employee form]]>
+    </line>
+    <line>
+      <![CDATA[Filled employee name: Adam K Smith]]>
+    </line>
+    <line>
+      <![CDATA[Uploaded employee photo from path: C:\Users\Admin\eclipse-workspace\orangehrm-testing\employee_photo.jpg]]>
+    </line>
+    <line>
+      <![CDATA[Enabled and entered employee login credentials]]>
+    </line>
+    <line>
+      <![CDATA[Employee profile submitted]]>
+    </line>
+    <line>
+      <![CDATA[Entered license number and expiry]]>
+    </line>
+    <line>
+      <![CDATA[Skipped SSN entry - element not present in this site version]]>
+    </line>
+    <line>
+      <![CDATA[Selected nationality: American, marital status: Single]]>
+    </line>
+    <line>
+      <![CDATA[Entered date of birth and selected gender]]>
+    </line>
+    <line>
+      <![CDATA[Skipped military service entry - element not present in this site version]]>
+    </line>
+    <line>
+      <![CDATA[Entered military service (if present)]]>
+    </line>
+    <line>
+      <![CDATA[Saved personal details]]>
+    </line>
+    <line>
+      <![CDATA[Selected blood type: O+]]>
+    </line>
+    <line>
+      <![CDATA[Saved blood type details]]>
+    </line>
+    <line>
+      <![CDATA[Uploaded resume from path: C:\Users\Admin\eclipse-workspace\orangehrm-testing\target\Engineer-Resume.pdf]]>
+    </line>
+    <line>
+      <![CDATA[Saved resume attachment]]>
+    </line>
+    <line>
+      <![CDATA[Navigated to System Users section]]>
+    </line>
+    <line>
+      <![CDATA[Entered system user details for: Adam K Smith]]>
+    </line>
+    <line>
+      <![CDATA[Set username, status and password for system user: adamsmith108]]>
+    </line>
+    <line>
+      <![CDATA[System user created]]>
+    </line>
+    <line>
+      <![CDATA[Navigated to Assign Leave section]]>
+    </line>
+    <line>
+      <![CDATA[Entered leave details: CAN - Personal, From: 2025-05-01 To: 2025-05-03]]>
+    </line>
+    <line>
+      <![CDATA[Logged out from Admin account]]>
+    </line>
+    <line>
+      <![CDATA[Logged in as employee: adamsmith108]]>
+    </line>
+    <line>
+      <![CDATA[Employee punch-in message: Punch In]]>
+    </line>
+    <line>
+      <![CDATA[Employee punch-out message: Punch Out]]>
+    </line>
+    <line>
+      <![CDATA[Navigated to Claim section]]>
+    </line>
+    <line>
+      <![CDATA[Selected event: Accommodation, currency: Swiss Franc]]>
+    </line>
+    <line>
+      <![CDATA[Claim created successfully]]>
+    </line>
+    <line>
+      <![CDATA[Expense added: Accommodation, 2025-05-18, 550, Hotel expense]]>
+    </line>
+    <line>
+      <![CDATA[Expense saved successfully]]>
+    </line>
+    <line>
+      <![CDATA[Claim submitted successfully]]>
+    </line>
+    <line>
+      <![CDATA[Navigated to Buzz section]]>
+    </line>
+    <line>
+      <![CDATA[Posted on Buzz: Yayyy!!! My project ends!! Cheers!!]]>
+    </line>
+    <line>
+      <![CDATA[===== Test Completed for user: Admin =====]]>
+    </line>
+    <line>
+      <![CDATA[Browser closed]]>
+    </line>
+    <line>
+      <![CDATA[Screen recording saved]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2025-04-23T10:35:29 IST" name="Default suite" finished-at="2025-04-23T10:37:57 IST" duration-ms="148692">
+    <groups>
+    </groups>
+    <test started-at="2025-04-23T10:35:29 IST" name="Default test" finished-at="2025-04-23T10:37:57 IST" duration-ms="148692">
+      <class name="AutomatedTesting.OrangeHRM.OneFileFullFlow">
+        <test-method is-config="true" signature="setup()[pri:0, instance:AutomatedTesting.OrangeHRM.OneFileFullFlow@7d20d0b]" started-at="2025-04-23T10:35:29 IST" name="setup" finished-at="2025-04-23T10:35:33 IST" duration-ms="4449" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Browser launched and navigated to OrangeHRM site]]>
+            </line>
+            <line>
+              <![CDATA[Screen recording started]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="fullFlowTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:AutomatedTesting.OrangeHRM.OneFileFullFlow@7d20d0b]" started-at="2025-04-23T10:35:34 IST" name="fullFlowTest" data-provider="FullData" finished-at="2025-04-23T10:37:57 IST" duration-ms="143103" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Adam]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[K]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Smith]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[adamsmith7001]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Test@123]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[C:\Users\Admin\eclipse-workspace\orangehrm-testing\employee_photo.jpg]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[I1234567]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[2026-06-19]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[123456789]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[American]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[Single]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[2000-01-01]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[O+]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[C:\Users\Admin\eclipse-workspace\orangehrm-testing\target\Engineer-Resume.pdf]]>
+              </value>
+            </param>
+            <param index="16">
+              <value>
+                <![CDATA[No]]>
+              </value>
+            </param>
+            <param index="17">
+              <value>
+                <![CDATA[Adam K Smith]]>
+              </value>
+            </param>
+            <param index="18">
+              <value>
+                <![CDATA[adamsmith108]]>
+              </value>
+            </param>
+            <param index="19">
+              <value>
+                <![CDATA[Test@123]]>
+              </value>
+            </param>
+            <param index="20">
+              <value>
+                <![CDATA[ESS]]>
+              </value>
+            </param>
+            <param index="21">
+              <value>
+                <![CDATA[Enabled]]>
+              </value>
+            </param>
+            <param index="22">
+              <value>
+                <![CDATA[Adam K Smith]]>
+              </value>
+            </param>
+            <param index="23">
+              <value>
+                <![CDATA[CAN - Personal]]>
+              </value>
+            </param>
+            <param index="24">
+              <value>
+                <![CDATA[2025-05-01]]>
+              </value>
+            </param>
+            <param index="25">
+              <value>
+                <![CDATA[2025-05-03]]>
+              </value>
+            </param>
+            <param index="26">
+              <value>
+                <![CDATA[Going to hospital]]>
+              </value>
+            </param>
+            <param index="27">
+              <value>
+                <![CDATA[Punch In]]>
+              </value>
+            </param>
+            <param index="28">
+              <value>
+                <![CDATA[Punch Out]]>
+              </value>
+            </param>
+            <param index="29">
+              <value>
+                <![CDATA[Accommodation]]>
+              </value>
+            </param>
+            <param index="30">
+              <value>
+                <![CDATA[Swiss Franc]]>
+              </value>
+            </param>
+            <param index="31">
+              <value>
+                <![CDATA[This is for stay at client visit at Switzerland.]]>
+              </value>
+            </param>
+            <param index="32">
+              <value>
+                <![CDATA[Accommodation]]>
+              </value>
+            </param>
+            <param index="33">
+              <value>
+                <![CDATA[2025-05-18]]>
+              </value>
+            </param>
+            <param index="34">
+              <value>
+                <![CDATA[550]]>
+              </value>
+            </param>
+            <param index="35">
+              <value>
+                <![CDATA[Hotel expense]]>
+              </value>
+            </param>
+            <param index="36">
+              <value>
+                <![CDATA[Yayyy!!! My project ends!! Cheers!!]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[--------------------------------------------------]]>
+            </line>
+            <line>
+              <![CDATA[TEST NAME     : Full Integrated Workflow - OrangeHRM]]>
+            </line>
+            <line>
+              <![CDATA[APPLICATION   : OrangeHRM Open Source (https://opensource-demo.orangehrmlive.com/)]]>
+            </line>
+            <line>
+              <![CDATA[TEST TYPE     : Functional | End-to-End | Positive Flow]]>
+            </line>
+            <line>
+              <![CDATA[TEST OBJECTIVE: Validate employee lifecycle (Add → Details → Resume → System User → Leave → Punch → Claim → Buzz)]]>
+            </line>
+            <line>
+              <![CDATA[DATA SOURCE   : Excel - target/EmployeeData.xlsx]]>
+            </line>
+            <line>
+              <![CDATA[--------------------------------------------------]]>
+            </line>
+            <line>
+              <![CDATA[===== Starting Full Flow Test for user: Admin =====]]>
+            </line>
+            <line>
+              <![CDATA[Entered Admin username and password]]>
+            </line>
+            <line>
+              <![CDATA[Admin login submitted]]>
+            </line>
+            <line>
+              <![CDATA[Navigated to PIM section]]>
+            </line>
+            <line>
+              <![CDATA[Accessed Add Employee form]]>
+            </line>
+            <line>
+              <![CDATA[Filled employee name: Adam K Smith]]>
+            </line>
+            <line>
+              <![CDATA[Uploaded employee photo from path: C:\Users\Admin\eclipse-workspace\orangehrm-testing\employee_photo.jpg]]>
+            </line>
+            <line>
+              <![CDATA[Enabled and entered employee login credentials]]>
+            </line>
+            <line>
+              <![CDATA[Employee profile submitted]]>
+            </line>
+            <line>
+              <![CDATA[Entered license number and expiry]]>
+            </line>
+            <line>
+              <![CDATA[Skipped SSN entry - element not present in this site version]]>
+            </line>
+            <line>
+              <![CDATA[Selected nationality: American, marital status: Single]]>
+            </line>
+            <line>
+              <![CDATA[Entered date of birth and selected gender]]>
+            </line>
+            <line>
+              <![CDATA[Skipped military service entry - element not present in this site version]]>
+            </line>
+            <line>
+              <![CDATA[Entered military service (if present)]]>
+            </line>
+            <line>
+              <![CDATA[Saved personal details]]>
+            </line>
+            <line>
+              <![CDATA[Selected blood type: O+]]>
+            </line>
+            <line>
+              <![CDATA[Saved blood type details]]>
+            </line>
+            <line>
+              <![CDATA[Uploaded resume from path: C:\Users\Admin\eclipse-workspace\orangehrm-testing\target\Engineer-Resume.pdf]]>
+            </line>
+            <line>
+              <![CDATA[Saved resume attachment]]>
+            </line>
+            <line>
+              <![CDATA[Navigated to System Users section]]>
+            </line>
+            <line>
+              <![CDATA[Entered system user details for: Adam K Smith]]>
+            </line>
+            <line>
+              <![CDATA[Set username, status and password for system user: adamsmith108]]>
+            </line>
+            <line>
+              <![CDATA[System user created]]>
+            </line>
+            <line>
+              <![CDATA[Navigated to Assign Leave section]]>
+            </line>
+            <line>
+              <![CDATA[Entered leave details: CAN - Personal, From: 2025-05-01 To: 2025-05-03]]>
+            </line>
+            <line>
+              <![CDATA[Logged out from Admin account]]>
+            </line>
+            <line>
+              <![CDATA[Logged in as employee: adamsmith108]]>
+            </line>
+            <line>
+              <![CDATA[Employee punch-in message: Punch In]]>
+            </line>
+            <line>
+              <![CDATA[Employee punch-out message: Punch Out]]>
+            </line>
+            <line>
+              <![CDATA[Navigated to Claim section]]>
+            </line>
+            <line>
+              <![CDATA[Selected event: Accommodation, currency: Swiss Franc]]>
+            </line>
+            <line>
+              <![CDATA[Claim created successfully]]>
+            </line>
+            <line>
+              <![CDATA[Expense added: Accommodation, 2025-05-18, 550, Hotel expense]]>
+            </line>
+            <line>
+              <![CDATA[Expense saved successfully]]>
+            </line>
+            <line>
+              <![CDATA[Claim submitted successfully]]>
+            </line>
+            <line>
+              <![CDATA[Navigated to Buzz section]]>
+            </line>
+            <line>
+              <![CDATA[Posted on Buzz: Yayyy!!! My project ends!! Cheers!!]]>
+            </line>
+            <line>
+              <![CDATA[===== Test Completed for user: Admin =====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- fullFlowTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:AutomatedTesting.OrangeHRM.OneFileFullFlow@7d20d0b]" started-at="2025-04-23T10:37:57 IST" name="tearDown" finished-at="2025-04-23T10:37:57 IST" duration-ms="443" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Browser closed]]>
+            </line>
+            <line>
+              <![CDATA[Screen recording saved]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- AutomatedTesting.OrangeHRM.OneFileFullFlow -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
